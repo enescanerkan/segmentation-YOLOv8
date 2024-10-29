@@ -1,0 +1,5 @@
+train: C:\Users\Monster\Desktop\block\data\train\images
+val: C:\Users\Monster\Desktop\block\data\val\images
+
+nc: 1  # Sınıf sayısı
+names: ["metal_block"]  # Sınıf isimleri
