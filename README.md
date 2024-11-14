@@ -24,6 +24,9 @@ Images were annotated in polygon format using CVAT.AI, a tool chosen for its use
 ![Ekran görüntüsü 2024-10-23 114724](https://github.com/user-attachments/assets/fbccabed-226e-4980-98f2-ff6d5052cf1e)
 ![Ekran görüntüsü 2024-10-24 111305](https://github.com/user-attachments/assets/3d0aa26b-2a1a-419f-b236-aff274374ac4)
 
+## Trained Images
+
+![val_batch0_labels](https://github.com/user-attachments/assets/317bcef1-cdc1-4c9b-8d4f-4c3659e6e5b7)
 
 ## Model Training (Model Eğitimi)
 
