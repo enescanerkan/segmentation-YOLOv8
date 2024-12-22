@@ -10,24 +10,37 @@ Initially, only 3 images were available, so data augmentation was performed to e
 
 ## Images 
 
-![1](https://github.com/user-attachments/assets/af804f43-a2bb-42d9-b762-4e069708e107)
-![2](https://github.com/user-attachments/assets/69f19510-9fa8-4eb4-a144-2bbf81e2c81c)
-![3](https://github.com/user-attachments/assets/3c37cdfa-df10-4795-ade8-0162a2bae88d)
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/af804f43-a2bb-42d9-b762-4e069708e107" width="1000"/></td>
+    <td><img src="https://github.com/user-attachments/assets/69f19510-9fa8-4eb4-a144-2bbf81e2c81c" width="1000"/></td>
+    <td><img src="https://github.com/user-attachments/assets/3c37cdfa-df10-4795-ade8-0162a2bae88d" width="1000"/></td>
+  </tr>
+</table>
+
+
 
 
 ## Labeling and Annotation (Etiketleme ve Anotasyon)
 
 Images were annotated in polygon format using CVAT.AI, a tool chosen for its user-friendly interface and AI-assisted segmentation capabilities, which simplified the labeling process. (Görüntüler, kullanıcı dostu arayüzü ve yapay zeka destekli segmentasyon özellikleri nedeniyle tercih edilen CVAT.AI uygulaması kullanılarak poligon formatında etiketlenmiştir.) 
 
-## Labeled Images
+## Labeled Images:
 
-![Ekran görüntüsü 2024-10-23 114724](https://github.com/user-attachments/assets/fbccabed-226e-4980-98f2-ff6d5052cf1e)
-![Ekran görüntüsü 2024-10-24 111305](https://github.com/user-attachments/assets/3d0aa26b-2a1a-419f-b236-aff274374ac4)
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/fbccabed-226e-4980-98f2-ff6d5052cf1e" width="1920"/></td>
+    <td><img src="https://github.com/user-attachments/assets/3d0aa26b-2a1a-419f-b236-aff274374ac4" width="1920"/></td>
+  </tr>
+</table>
 
 ## Trained Images
 
-![val_batch0_labels](https://github.com/user-attachments/assets/317bcef1-cdc1-4c9b-8d4f-4c3659e6e5b7)
-
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/317bcef1-cdc1-4c9b-8d4f-4c3659e6e5b7" width="1000"/></td>
+  </tr>
+</table>
 ## Model Training (Model Eğitimi)
 
 The augmented dataset, along with the labeled annotations, was used to train a YOLOv8 segmentation model (middle model variant) for 200 epochs. (Çoğaltılmış veri seti ve etiketlenmiş anotasyonlar, YOLOv8 segmentasyon modeli (orta model varyantı) ile 200 epoch boyunca eğitildi.) During training, it was observed that continuously rotating and augmenting the same 3 images led to overfitting. (Eğitim sırasında, aynı 3 görüntünün sürekli döndürülüp çoğaltılmasının aşırı öğrenmeye yol açtığı gözlemlendi.) This suggests that a more diverse dataset could improve the model's performance in future experiments. (Bu durum, gelecekteki deneylerde daha çeşitli bir veri setinin model performansını artırabileceğini önermektedir.)
